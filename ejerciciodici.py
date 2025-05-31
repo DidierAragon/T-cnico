@@ -46,17 +46,17 @@
 
 print("ejercicio numero tres")
 estudiante=input("ingresar nombre del estudiante: ")
-mat_1=input("nombre de la primera asignatura:")
+mat_1=input("nombre de la primera asignatura: ")
 nota_1=float(input("ingresar primera nota "))
 nota_2=float(input("ingresar segunda nota "))
 
 
-mat_2=input("nombre de la segunda asignatura:")
+mat_2=input("nombre de la segunda asignatura: ")
 nota_3=float(input("ingresar primera nota "))
 nota_4=float(input("ingresar segunda nota "))
 
 
-mat_3=input("nombre de la tercera asignatura:")
+mat_3=input("nombre de la tercera asignatura: ")
 nota_5=float(input("ingresar primera nota "))
 nota_6=float(input("ingresar segunda nota "))
 
@@ -77,3 +77,4 @@ registro={
 
 promedio_final = nota_1 + nota_2 + nota_3 + nota_4 + nota_5 + nota_6 //6
 
+print(f"el estudiante {estudiante} en la materia de {mat_1} tuvo las siguientes calificaciones {nota_1} y {nota_2}, en la materia de {mat_2} tuvo las siguientes calificaciones {nota_3} y {nota_4} y en la materia de {mat_3} tuvo las siguientes calificaciones {nota_5} y  {nota_6} con un promedio de {promedio_final}")
