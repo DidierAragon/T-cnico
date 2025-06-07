@@ -100,3 +100,5 @@
 #     print(f"el numero {numero4} es divisible con el numero {numero6}")
 # else:
 #     print(f"el numero {numero4} no es divisible con {numero5} y {numero6}")
+
+print("ejercicio numer 11")
