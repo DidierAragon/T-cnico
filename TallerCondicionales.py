@@ -101,4 +101,112 @@
 # else:
 #     print(f"el numero {numero4} no es divisible con {numero5} y {numero6}")
 
-print("ejercicio numer 11")
+# print("ejercicio numer 11")
+# lista=[1,2,34,90,56]
+# if lista[3] > 10:
+#     print("el numero es mayor a 10")
+# else:
+#     print("el numero es menor a 10")
+
+# print("ejercicio numero 12")
+# listu=[3,5,6,7,9]
+# if listu[3] == 7 :
+#     print("el numero esta en la lista")
+# else:
+#     print("no esta en la lista")
+
+# print("ejercicio numero 13")
+# numeros=[5,6,7,8,9]
+# resultado = numeros[0] + numeros[1]
+# if resultado > 10:
+#     print("suma alta")
+# else:
+#     print("suma baja")
+
+# print("ejercicio numero 14")
+# trabajadores=["luis","camilo","caballo","marta"]
+# if trabajadores[-1] == "marta":
+#     print("nombre correcto")
+# else:
+#     print("nombre diferente")
+
+
+# print("ejercicio numero 15")
+# colores = ["amarillo","azul","rojo"]
+# if colores[1] == "azul":
+#     colores.insert(1,"rosa")
+# print(colores)
+
+
+# print("ejercico numero 16")
+# tupla=(2,4,5,6,7,8)
+# if tupla[0] < tupla[-1]:
+#     print("orden ascendente")
+# else:
+#     print("orden descendente")
+
+# print("ejercicio numero 17")
+# edades=(25, 32, 45)
+# if edades[1] > 30:
+#     print("edad mayor a 30")
+# else:
+#     print("edad menor o igual a 30")
+
+# print("ejercicio numero 18")
+# numero=(1,2,3)
+# numers=list(numero)
+# if numers[1] == 2:
+#     numers.insert(1,10)
+# final=tuple(numers)
+# print(final)
+
+# print("ejercicio numero 19")
+# cordenadas=(4,9)
+# if cordenadas[1] > 5:
+#     print("coordenada alta")
+# else:
+#     print("coordenada baja")
+
+# print("ejercicio numero 20")
+# tupla_1 = (1,3)
+# tupla_2 = (1,2)
+# if tupla_1 == tupla_2:
+#     print("las tuplas son iguales")
+# else:
+#     print("las tuplas son diferentes")
+
+# print("ejercicio numero 21")
+# nombre="juan"
+# edad=17
+# datos={
+#     nombre:"juan",
+#     edad : 17
+# }
+# if datos[edad] >= 18:
+#     print("ADULTO")
+# else:
+#     print("menor de edad")
+
+# print("ejercicio numero 22")
+# persona={"nombre":"nombre", "edad": 20}
+# if persona["edad"] > 18:
+#     persona["edad"] = 21
+# print(persona)
+
+# print("ejercicio numero 23")
+# nacionalidad = {"nombre":"carlos" }
+# if "ciudad" not in nacionalidad:
+#     nacionalidad["ciudad"]="bogota"
+# print(nacionalidad)
+
+# print("ejercicio numero 24")
+# compra={"producto":"pan","precio":2000}
+# if "precio" in  compra:
+#     print(f"el precio es {compra["precio"]}")
+# else:
+#     print("no hay precio")
+
+# print("ejercicio numero 25")
+# productos={"pan":1200,"leche":2000}
+# if "pan" in productos:
+#     print(f"el precio es {productos['pan']}")
