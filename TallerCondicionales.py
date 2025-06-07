@@ -87,4 +87,16 @@
 # else:
 #     print("su mumero no es multiplo de 5 ni de 7")
 
-print("ejercicio numero 10")
+# print("ejercicio numero 10")
+# numero4=int(input("ingresar un numero entero: "))
+# numero5=int(input("ingresar primer divisor: "))
+# numero6=int(input("ingresar segundo divisor: "))
+
+# if numero4 % numero5 == 0 and numero5 % numero6 ==0:
+#     print(f"el numero {numero4} es divisible con el numero {numero5} y {numero6} ")
+# elif numero4 % numero5 == 0:
+#     print(f"el numero {numero4} es divisible con el numero {numero5}")
+# elif numero4 % numero6 == 0:
+#     print(f"el numero {numero4} es divisible con el numero {numero6}")
+# else:
+#     print(f"el numero {numero4} no es divisible con {numero5} y {numero6}")
