@@ -30,4 +30,61 @@
 # else:
 #     print(f"el numero {numero_4}  esta entre 10 y 20")
 
-print("ejercicio numero 5")
+# print("ejercicio numero 5")
+# numero_5=int(input("ingresar un numero entero: "))
+
+# numero_6=int(input("ingresar un numero entero: "))
+
+# numero_7=int(input("ingresar un numero entero: "))
+
+# if numero_5 > numero_6 and numero_5 > numero_7:
+#     print(f"el numero {numero_5} es mayor a {numero_6} y {numero_7}")
+# elif numero_6 > numero_5 and numero_6 > numero_7:
+#     print(f"el numero {numero_6} es mayor a {numero_5} y {numero_7}")
+# elif numero_7 > numero_6 and numero_7 > numero_5:
+#     print(f"el numero {numero_7} es mayor a {numero_5} y {numero_6}")
+
+
+# print("ejercicio numero 6")
+# precio=float(input("ingrese el precio: "))
+# descuento=precio * 0.10
+# total=precio-descuento
+# if precio >= 100:
+#     print(f"el descuento de su compra es {descuento} y el precio queda en {total}")
+# else:
+#     print(f"su compra no tiene descuento")
+
+# print("ejercicio numero 7")
+# edad=int(input("ingrese su edad: "))
+# if edad >= 18:
+#     print("tu puedes votar")
+# else:
+#     print("no puedes votar")
+
+
+# print("ejercicio numero 8")
+# precio_1=float(input("ingrese el precio: "))
+# print("eres cliente VIP ?" \
+# " ingresar:" \
+# " SI" \
+# " NO")
+# cliente=input("ingresar respuesta: ").upper()
+# descuento_1=precio_1 * 0.20
+# total=precio_1 - descuento_1
+# if cliente == "SI":
+#     print(f"el precio de su compra con el descuento de {descuento_1} queda en {total}")
+# elif cliente == "NO":
+#     print(f"su compra no tiene descuento, su compra queda en {precio_1}")
+
+# print("ejercio numero 9")
+# multiplo=int(input("ingresar numero "))
+# nu5= multiplo % 5
+# nu7= multiplo % 7
+# if nu5 == 0:
+#     print(f"su nuero {multiplo} es multiplo de 5 ")
+# elif nu7 == 0:
+#     print(f"su nuero {multiplo} es multiplo de 7 ")
+# else:
+#     print("su mumero no es multiplo de 5 ni de 7")
+
+print("ejercicio numero 10")
