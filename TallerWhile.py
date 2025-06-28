@@ -30,7 +30,7 @@ print("Taller con while")
 # print("tu lista de compras es: ",compras)
 
 
-print("ejercicio numero 4 ")
+#print("ejercicio numero 4 ")
 #pide al usuario numeros y ve cuales son pares e impares
 
 # contador = 0
@@ -51,7 +51,7 @@ print("ejercicio numero 4 ")
 # print(f"En los 10 números que me diste hay {impares} impares")
 
 
-print("ejercicio numero 5")
+# print("ejercicio numero 5")
 # #pide al usuario notas entre 0 y 5 hasta que escriba "salir" guardar las notas en una lista y mopstrar el promedio
 # notas=[]
 # fin = 0
@@ -87,10 +87,110 @@ print("ejercicio numero 5")
 #         print("¡Felicidades! Adivinaste el número.")
 
 
-print("ejercicio numero 8")
-frutas = ("piña","mango","manzana")
-adivina=input("adivina que frutas tengo: ")
-while adivina != frutas:
-    print(f"la fruta {adivina} no la tengo")
-    adivina=input("adivina que frutas tengo: ")
-print(f"la fruta {adivina} si la tengo")
+# print("ejercicio numero 8")
+# frutas = ("piña","mango","manzana")
+# while True:
+#     adivina=input("adivina que frutas tengo: ")
+#     if adivina in frutas:
+#         print(f"la fruta {adivina} si la tengo ")
+#     else:
+#         print(f"no tengo esa fruta")
+
+
+# print("ejercicio numero 9")
+# diccionari = {
+#     "rojo" : "red",
+#     "amarillo" : "yellow",
+#     "rosa" : "pink",
+#     "azul" : "blue",
+#     "verde" : "green"
+# }
+
+# print("traductor de colores, escribe un color y te muestro la traduccion en ingles")
+# while True:
+#     color=input("ingresar color en español: ")
+#     if color in diccionari:
+#         print(f"el color {color} en ingles es {diccionari[color]}")
+#     else:
+#         print("no tengo ese color")
+
+
+# print("ejercicio numero 10")
+# print("calculadora basica")
+# primer=float(input("ingresar primer digito: "))
+# segundo=float(input("ingresar segundo digito: "))
+# print(f"OPERACIONES: \n 1: suma \n 2: resta \n 3: multiplicacion \n 4:division \n 5:salir")
+# while True:
+
+#     operacion = int(input("ingresar el numero de la opcion que desea: "))
+#     if operacion == 5:
+#         break
+#     elif operacion == 1:
+#         print(f" {primer} + {segundo} = {primer + segundo}")
+#     elif operacion == 2:
+#         print(f"{primer} - {segundo} = {primer - segundo}")
+#     elif operacion == 3:
+#         print(f"{primer} x {segundo} = {primer * segundo}")
+#     elif operacion == 4:
+#         print(f"{primer} / {segundo} = {primer // segundo}")
+#     else:
+#         print("error")
+
+
+# print("ejercicio numero 11")
+# personas ={}
+# while True:
+#     nombre = input("ingrese el nombre de la persona o salir para finalizar: ")
+#     if nombre.lower() == "salir":
+#         break
+#     edad=int(input(f"ingresar la edad de {nombre}: "))
+#     personas[nombre] = edad
+
+# print(f"personas registradas: \n {personas}")
+
+
+# print("ejercicio numero 12")
+# colores=["amarillo","azul","blanco","verde","negro"]
+# print("adivina que color tengo")
+# while True:
+#     adivino=input("adivina que color tengo: ").lower()
+#     if adivino in colores:
+#         print(f"felicidades si tengo el {adivino}")
+#     else:
+#         print("intenta otra vez")
+
+
+# print("ejercicio numero 13")
+# exponente= 1
+# numero=int(input("ingrese el numero: "))
+
+# while exponente < 6:
+#     print(f"{numero} ** {exponente} = {numero ** exponente}")
+#     exponente += 1
+
+
+
+
+# print("ejercicio numero 14")
+# numero=[]
+# cuadrados=[]
+# contador=0
+# while contador < 5:
+#     num=int(input(f"dame 5 numeros {contador + 1}: "))
+#     numero.append(num)
+#     cuadrados.append(num ** 2)
+#     contador += 1
+# print(f"los numeros {numero} y su cuadrado {cuadrados}")
+
+
+
+
+# print("ejercicio numero 15")
+# estudiantes = {}
+# while True:
+#     nombre=input("ingresar nombre de estudiante \n o escribir fin para terminar: ")
+#     if nombre.lower() == "fin":
+#         break
+#     nota=float(input(f"ingresar nota de {nombre}: "))
+#     estudiantes[nombre] = nota
+# print(f"estudiantes y su nota: {estudiantes}")
