@@ -53,14 +53,17 @@ print("Taller con while")
 
 # print("ejercicio numero 5")
 # #pide al usuario notas entre 0 y 5 hasta que escriba "salir" guardar las notas en una lista y mopstrar el promedio
-# notas=[]
-# fin = 0
-# nota=int(input("ingresar notas de 1 a 5 (escribe 0 si quieres finalizar): "))
-# while nota != fin:
-#         notas.append(nota)
-#         nota=int(input("ingresar notas de 0 a 5 (escribe salir si quieres finalizar): "))
-# print(f"tus notas son {notas} ")
-# print(f"tu promedio es {sum(notas)/len(notas)}")
+notas=[]
+while True:
+        nota=(input("ingresar notas de 1 a 5 (escribe salir si quieres finalizar): "))
+        if nota.lower() == "salir":
+                break
+        calificacion=float(nota)
+        if 0 <= calificacion <= 5:
+            notas.append(calificacion)
+promedio = sum(notas) / len(notas) if notas else 0
+print(f"tus notas son {notas} ")
+print(f"el promedio de las notas es: {promedio}")
    
 
 # print("ejercicio numero 6")
