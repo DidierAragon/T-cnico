@@ -82,3 +82,11 @@ while True:
                     print("registro exitoso")
             except:
                 print("datos incorrecto, ingresar datos correctos.")
+
+    elif opcion == "2":
+        print("historial de habitos")
+        i = 0
+        while i < len(seguimiento):
+            reg = seguimiento[i]
+            print(f"{reg[0]},\n agua= {(reg[1])},\n ejercicio= {(reg[2])} \nminutos sueño= {(reg[3])},\n alimentacion saludable= {(reg[4])}")
+            i += 1
